@@ -11,6 +11,7 @@
 header {
     padding: 20px;
     display: flex;
+    justify-content: space-between;
 }
 
 .header-logo {
@@ -18,34 +19,26 @@ header {
 }
 
 /* Header Menu */
+ul.menu li {
+    list-style-type: none;
+}
 
 .menu {
     display: flex;
-    justify-content: center;
-    background-color: white;
-    padding: 10px 0;
-    list-style: none;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
 }
 
-.menu li {
-    display: inline-block;
-    margin: 0 15px;
-    padding: 10px 15px;
-    border-bottom: 3px solid transparent;
-}
-
-.menu li:hover {
-    border-bottom: 3px solid blue;
-}
-
-.menu a {
-    text-decoration: none;
-    color: black;
+li a {
     font-weight: bold;
+    text-decoration: none;
+    color: #000000;
 }
 
-.menu li:hover a {
-    color: blue;
+ul.menu li a:hover {
+    color: #0c7cec;
+    border-bottom: 3px solid #0c7cec;
 }
 
 /* Container */
@@ -54,5 +47,4 @@ header {
     padding: 0;
     margin: auto;
     width: 1280px;
-
 }
