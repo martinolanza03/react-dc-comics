@@ -1,3 +1,6 @@
+import FooterMenu from './FooterMenu.jsx'
 export default function Footer() {
-    return (<footer>Footer</footer>);
+    return (<footer>
+        <FooterMenu />
+    </footer>);
 }

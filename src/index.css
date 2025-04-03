@@ -81,6 +81,39 @@ main {
     gap: 70px;
 }
 
+/* Footer Menu */
+
+.footer-bg {
+    background-image: url('../public/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-menu {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-column h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    width: 100%;
+}
+
+.footer-column ul li a {
+    color: #777777;
+    text-decoration: none;
+    font-size: 14px;
+}
+
 /* Container */
 
 .container {
