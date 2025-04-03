@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Header */
@@ -14,6 +15,37 @@ header {
 
 .header-logo {
     height: 70px;
+}
+
+/* Header Menu */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-bottom: 3px solid transparent;
+}
+
+.menu li:hover {
+    border-bottom: 3px solid blue;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu li:hover a {
+    color: blue;
 }
 
 /* Container */
