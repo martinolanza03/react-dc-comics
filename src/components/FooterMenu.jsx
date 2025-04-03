@@ -1,3 +1,5 @@
+import FooterLogo from './FooterLogo.jsx'
+
 export default function FooterMenu() {
     return (
         <div class='footer-bg'>
@@ -50,7 +52,12 @@ export default function FooterMenu() {
                         </ul>
                     </div>
                 </div>
+                <div className="footer-logo-container">
+                    <FooterLogo />
+                </div>
             </div>
+
         </div>
+
     );
 }

@@ -60,6 +60,7 @@ main {
 
 .buy-container {
     background-color: #0c7cec;
+    z-index: 2;
 }
 
 .buy {
@@ -87,13 +88,16 @@ main {
     background-image: url('../public/img/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .footer-menu {
-    padding: 40px;
+    padding: 40px 0;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    width: 60%;
 }
 
 .footer-column h3 {
@@ -112,6 +116,20 @@ main {
     color: #777777;
     text-decoration: none;
     font-size: 14px;
+}
+
+.footer-logo-container {
+    position: absolute;
+    right: 100px;
+    top: -20px;
+    width: 400px;
+    height: 400px;
+}
+
+.footer-logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Container */
