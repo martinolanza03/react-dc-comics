@@ -1,4 +1,5 @@
-import Content from './Content.jsx'
+import Content from './Content.jsx';
+
 export default function Main() {
     return (<main>
         <div class='container'>
