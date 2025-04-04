@@ -1,16 +1,16 @@
-export default function Menu() {
+import LinkMenu from './LinkMenu.jsx'
+
+
+export default function Menu({ content }) {
+
+
     return (
         <ul className="menu">
-            <li><a href="#">CHARACTERS</a></li>
-            <li><a href="#">COMICS</a></li>
-            <li><a href="#">MOVIES</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">GAMES</a></li>
-            <li><a href="#">COLLECTIBLES</a></li>
-            <li><a href="#">VIDEOS</a></li>
-            <li><a href="#">FANS</a></li>
-            <li><a href="#">NEWS</a></li>
-            <li><a href="#">SHOP</a></li>
+            <LinkMenu title={content[0].title} link={content[0].link} />
+            <LinkMenu title={content[1].title} link={content[1].link} />
+            <LinkMenu title={content[2].title} link={content[2].link} />
+            <LinkMenu title={content[3].title} link={content[3].link} />
+            <LinkMenu title={content[4].title} link={content[4].link} />
         </ul>
     );
 }
