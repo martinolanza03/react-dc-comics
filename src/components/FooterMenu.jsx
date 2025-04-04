@@ -5,7 +5,7 @@ export default function FooterMenu() {
         <div className='footer-bg'>
             <div className='container'>
                 <div className="footer-menu">
-                    <div class="footer-column">
+                    <div className="footer-column">
                         <h3>DC COMICS</h3>
                         <ul>
                             <li><a href="#">Characters</a></li>
@@ -24,7 +24,7 @@ export default function FooterMenu() {
                         </ul>
                     </div>
 
-                    <div class="footer-column">
+                    <div className="footer-column">
                         <h3>DC</h3>
                         <ul>
                             <li><a href="#">Terms Of Use</a></li>
@@ -41,7 +41,7 @@ export default function FooterMenu() {
                         </ul>
                     </div>
 
-                    <div class="footer-column">
+                    <div className="footer-column">
                         <h3>SITES</h3>
                         <ul>
                             <li><a href="#">DC</a></li>
