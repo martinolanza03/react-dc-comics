@@ -1,6 +1,6 @@
 export default function IconBuy() {
     return (
-        <div classNameName='buy-container'>
+        <div className='buy-container'>
             <div className='container buy-flex'>
                 <div className='buy'>
                     <img src="../public/img/buy-comics-digital-comics.png" alt="buy-comics" />
