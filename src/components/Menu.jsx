@@ -1,6 +1,6 @@
 export default function Menu() {
     return (
-        <ul class="menu">
+        <ul className="menu">
             <li><a href="#">CHARACTERS</a></li>
             <li><a href="#">COMICS</a></li>
             <li><a href="#">MOVIES</a></li>

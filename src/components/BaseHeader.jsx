@@ -4,7 +4,7 @@ import Menu from './Menu.jsx'
 export default function Header() {
     return (
         <header >
-            <div class="container">
+            <div className="container">
                 <Logo />
                 <Menu />
             </div>

@@ -2,9 +2,9 @@ import FooterLogo from './FooterLogo.jsx'
 
 export default function FooterMenu() {
     return (
-        <div class='footer-bg'>
-            <div class='container'>
-                <div class="footer-menu">
+        <div className='footer-bg'>
+            <div className='container'>
+                <div className="footer-menu">
                     <div class="footer-column">
                         <h3>DC COMICS</h3>
                         <ul>

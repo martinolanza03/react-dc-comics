@@ -1,6 +1,6 @@
 export default function Content() {
     return (
-        <div class='content'>
+        <div className='content'>
             <p> -- Content goes here --</p>
         </div>
     );
