@@ -6,8 +6,8 @@ export default function Content() {
             <ul className='comics'>
                 {Comics.map(comic => {
                     return comic.thumb !== undefined ? <li>
-                        <img src={comic.thumb} alt={comic.series} />
-                        <p>{comic.title}</p>
+                        <img src={comic.thumb} alt={comic.tilte} />
+                        <p>{comic.series}</p>
                     </li> : '';
                 })}
             </ul >
