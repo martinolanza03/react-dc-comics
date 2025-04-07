@@ -44,6 +44,7 @@ ul.menu li a:hover {
 /* Content */
 main {
     background-color: #1c1c1c;
+
 }
 
 .content {
@@ -87,6 +88,19 @@ main {
     font-weight: normal;
     text-align: left;
     text-transform: uppercase;
+}
+
+.current-series-btn {
+    padding: 15px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #0282F9;
+    border: 2px solid #0282F9;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    top: -35px;
 }
 
 /* Icon News */
@@ -218,4 +232,5 @@ footer {
     padding: 0;
     margin: auto;
     width: 1280px;
+    position: relative;
 }
