@@ -1,7 +1,14 @@
+import Comics from '../assets/comics.js';
+
 export default function Content() {
     return (
         <div className='content'>
-            <p> -- Content goes here --</p>
+            <ul>
+                <li>ciao</li>
+                <li>ciao</li>
+                <li>ciao</li>
+                <li>ciao</li>
+            </ul>
         </div>
     );
 }
