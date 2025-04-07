@@ -103,6 +103,25 @@ main {
     top: -35px;
 }
 
+.series {
+    display: flex;
+    flex-direction: column;
+}
+
+.load-more-btn {
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 200px;
+    align-self: center;
+    margin-bottom: 30px;
+    background-color: #0282F9;
+    border: 2px solid #0282F9;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 /* Icon News */
 
 .buy-container {

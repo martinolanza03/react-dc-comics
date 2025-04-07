@@ -5,8 +5,11 @@ export default function Main() {
         <img src="../img/jumbotron.jpg" alt="Jumbotron" className='jumbotron' />
 
         <div className='container'>
-            <button className='current-series-btn'>Current Series</button>
-            <Content />
+            <div className='series'>
+                <button className='current-series-btn'>Current Series</button>
+                <Content />
+                <button className='load-more-btn'>Load More</button>
+            </div>
         </div>
 
     </main>);
